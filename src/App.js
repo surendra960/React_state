@@ -20,6 +20,9 @@ function App() {
     <div className="App">
       <h1>{Data}</h1>
       <button onClick={counting_change}>Click Me</button>
+      <MyButton></MyButton> // it will reflect changes diff. diff on each call & click
+
+      <br></br>
       <MyButton></MyButton>
     </div>
   );
