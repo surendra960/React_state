@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 import {useState} from "react" ;
+import MyButton from "./MyButton";
 
 function App() {
   const [Data, setData] = useState(0)
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
       <h1>{Data}</h1>
       <button onClick={counting_change}>Click Me</button>
+      <MyButton></MyButton>
     </div>
   );
 }
